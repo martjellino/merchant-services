@@ -22,7 +22,7 @@ Merchant Service has 2 entities that is named merchant and product. The attribut
 
 ## RESTful API Endpoints
 **API Endpoint**
-Method | Endpoint | Description |
+Method | Endpoint | Function |
 --- | --- | --- |
 Post | /merchant | to register itself/create an account in the merchant service |
 Delete | /merchant/:id | to remove its data/delete its account in the merchant service |
@@ -32,6 +32,10 @@ Delete | /merchant/:merchant_id/product/:id | to delete a product in the merchan
 Put | /merchant/:merchant_id/product/:id | to update a product in the merchant service |
 Get | /merchant/:merchant_id/product/:id | to get the specific single list of its products from the merchant service |
 Get | /merchant/:merchant_id/product/ | to get the all list of its products from the merchant service |
+Put | /merchant/:id | to update a merchant in the merchant service (additional) |
+Get | /merchant/ | to get the all list of merchant from the merchant service (additional) |
+Get | /merchant/:id | to get the specific single list of merchant from the merchant service (additional) |
+
 
 **Validation of Merchant Entity**
 Field | Format |
